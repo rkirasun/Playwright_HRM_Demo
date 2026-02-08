@@ -1,0 +1,28 @@
+{
+    "name": "Playwright_HRM_Demo",
+    "version": "1.0.0",
+    "description": "Playwright automation tests for Orange-HRM application",
+    "main": "index.js",
+    "scripts": {
+        "test": "playwright test",
+        "test:headed": "playwright test --headed",
+        "test:debug": "playwright test --debug",
+        "test:ui": "playwright test --ui",
+        "report": "playwright show-report",
+        "codegen": "playwright codegen https://opensource-demo.orangehrmlive.com/"
+    },
+    "keywords": [
+        "playwright",
+        "automation",
+        "testing",
+        "typescript",
+        "e2e"
+    ],
+    "author": "Rkira Helmer",
+    "license": "ISC",
+    "devDependencies": {
+        "@playwright/test": "^1.57.0",
+        "@types/node": "^20.19.33",
+        "typescript": "^5.3.0"
+    }
+}
